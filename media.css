@@ -1,0 +1,115 @@
+
+#navbar{ 
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+  
+    
+    
+}
+.h1 h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    }
+#nav ul{
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding:0px 0px; */
+    justify-content: center;
+    align-items: center;
+    }
+.ss{
+  margin:30px;
+}
+
+#nav ul li {
+    padding:10px 0px;
+   
+
+}
+#nav {
+  justify-content: center;
+   
+
+}
+
+  
+  #box{
+    flex-direction: column;
+    margin:2px 30px;
+    
+
+  }
+  #color{
+    height:auto;
+  }
+
+  .foods img{
+    justify-content: center;
+    padding: 0px 20px;
+   
+
+  }
+#rec{
+    /* margin:10px 0px; */
+    text-align: center;
+}
+#end{
+ flex-direction: column;
+
+
+}
+#f1{
+  width:auto;
+  
+
+}
+#f2{
+  width:auto;
+}
+#navbar{
+position: static;
+}
+#join p{
+  font-size: 12px;
+}
+#f3{
+  width: auto;
+}
+#end h2{
+  display: flex;
+  justify-content: center;
+}
+.eq{
+
+  justify-content: center;
+}
+  
+#f1 span{
+  justify-content: center;
+}
+#h2{
+  height: 300px;
+  width:auto;
+  
+  
+}
+#h4{
+  height: 300px;
+  width:auto;
+
+}
+#h5{
+  height: 300px;
+  width:auto;
+  }
+#h7{
+  height: 300px;
+  width:auto;
+  }
+
+.ff{
+  justify-content: center;
+}
