@@ -28,11 +28,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
+  <a href="#home" id="mainactive" class="active">Home</a>
   <a href="#news">Hottest Recipe </a>
-  <a href="#contact">Our Chef</a>
+  <a href="#chef">Our Chef</a>
   <a href="#about">Contact</a>
-  <a href="#about">Submit Recipe</a>
+  <a href="#submit">Submit Recipe</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -53,8 +53,7 @@
       </div>
     </nav> 
   -->
-
-    <div id="home">
+    <section id="color">
       <div class="mainimg">
         <div class="today">
           <h2>TODAY'S SPECIAL</h2>
@@ -71,12 +70,14 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section id="color">
+
+    <section id="news">
       <div id="rec">
         <h3>hottest recipe in cafeteria</h3>
       </div>
+
       <div id="box">
         <div class="foods" id="h1"><img src="pizza.jpg" alt="" /></div>
         <div class="food">
@@ -91,6 +92,7 @@
             <input type="button" value="readmore" />
           </div>
         </div>
+
         <div class="foods" id="h3"><img src="hot dog.jpg" alt="" /></div>
         <div class="food">
           <div id="h4">
@@ -104,6 +106,8 @@
             <input type="button" value="readmore" />
           </div>
         </div>
+
+        <div class="foods" id="h6"><img src="mom0.jpg" alt="" /></div>
         <div class="food">
           <div id="h5">
             <h3 class="mar">steamed tandoori momos</h3>
@@ -116,7 +120,7 @@
           </div>
         </div>
 
-        <div class="foods" id="h6"><img src="mom0.jpg" alt="" /></div>
+        <div class="foods" id="h6"><img src="strawmilk.jpg" alt="" /></div>
         <div class="food">
           <div id="h7">
             <h3 class="mar">healthy strawberry shake</h3>
@@ -127,14 +131,14 @@
             </p>
             <input type="button" value="readmore" id="w1" />
           </div>
-        </div>
-        <div class="foods" id="h8">
-          <img src="brooke-lark-W9OKrxBqiZA-unsplash.jpg" alt="" />
-        </div>
+          </div>
       </div>
+
     </section>
+
+
     <div class="col"></div>
-    <div id="che">
+    <section id="chef">
       <div class="chef">
         <div id="join">
           <h3 class="padd">"we love our chefs"</h3>
@@ -149,8 +153,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <footer>
+    </section>
+  
+
+    <footer id="about">
       <div class="col"></div>
       <div id="end">
         <div class="f2" id="f1">
